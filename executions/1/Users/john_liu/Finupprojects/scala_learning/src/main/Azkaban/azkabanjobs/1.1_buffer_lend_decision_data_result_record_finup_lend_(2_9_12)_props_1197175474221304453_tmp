@@ -1,0 +1,34 @@
+#Thu Aug 31 18:36:22 CST 2017
+azkaban.flow.start.timezone=Asia/Shanghai
+retries=3
+azkaban.job.innodes=
+azkaban.flow.flowid=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)
+azkaban.flow.start.second=22
+azkaban.flow.submituser=azkaban
+success.emails=liushouwei@finupgroup.com
+command=sh /data/cloud/deploy/scripts/bigdata/puhui_data_platform/bin/hourly/finup_lend/transKetter.sh lend_decision_data_result_record finup_lend buffer default finup_lend
+azkaban.flow.uuid=8d18df56-f3f3-44ee-9c58-9a56566d3ff2
+type=command
+retry.back=30000
+azkaban.flow.start.timestamp=2017-08-31T18\:36\:22.110+08\:00
+failure.emails=liushouwei@finupgroup.com
+azkaban.job.id=1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)
+azkaban.job.attachment.file=/Users/john_liu/IdeaProjects/azkaban/azkaban-john/executions/1/Users/john_liu/Finupprojects/scala_learning/src/main/Azkaban/azkabanjobs/_job.1.1.1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).attach
+azkaban.job.attempt=1
+azkaban.flow.start.milliseconds=110
+azkaban.flow.start.hour=18
+azkaban.flow.projectname=ddd
+azkaban.memory.check=true
+azkaban.job.outnodes=1.1_ods_lend_decision_data_result_record_finup_lend_(2_9_12)
+azkaban.job.metadata.file=_job.1.1.1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).meta
+azkaban.flow.projectlastchangeddate=1504175773545
+azkaban.flow.projectlastchangedby=azkaban
+azkaban.flow.start.year=2017
+working.dir=/Users/john_liu/IdeaProjects/azkaban/azkaban-john/executions/1/Users/john_liu/Finupprojects/scala_learning/src/main/Azkaban/azkabanjobs
+azkaban.flow.start.month=08
+jvm.args=-Dazkaban.flowid\=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) -Dazkaban.execid\=1 -Dazkaban.jobid\=1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)
+azkaban.flow.projectid=1
+azkaban.flow.start.minute=36
+azkaban.flow.execid=1
+azkaban.flow.projectversion=1
+azkaban.flow.start.day=31

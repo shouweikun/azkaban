@@ -1,0 +1,5 @@
+#2_end__puhui_cc_(daily_2)
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+command = echo "end"

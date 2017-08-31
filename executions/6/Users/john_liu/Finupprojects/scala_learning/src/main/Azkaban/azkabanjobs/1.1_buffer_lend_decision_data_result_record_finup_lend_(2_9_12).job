@@ -1,0 +1,7 @@
+#1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+retries = 3
+retry.back = 30000
+command = sh /data/cloud/deploy/scripts/bigdata/puhui_data_platform/bin/hourly/finup_lend/transKetter.sh lend_decision_data_result_record finup_lend buffer default finup_lend

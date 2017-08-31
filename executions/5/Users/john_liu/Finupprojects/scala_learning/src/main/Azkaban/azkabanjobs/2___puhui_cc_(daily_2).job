@@ -1,0 +1,6 @@
+#2___puhui_cc_(daily_2)
+type = flow
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+dependencies = 2.6__cc_user_puhui_cc_(daily_2),2.5__cc_sales_product_puhui_cc_(daily_2),2.4__cc_sales_chance _puhui_cc_(daily_2),2.3__cc_oto_qianzhan_refuse_info_puhui_cc_(daily_2),2.2__cc_oto_loss_data_puhui_cc_(daily_2),2.1__cc_dict_puhui_cc_(daily_2),2.7__cc_workorder _puhui_cc_(daily_2),2.8__cc_customer_puhui_cc_(daily_2)
+flow.name = 2_end__puhui_cc_(daily_2)

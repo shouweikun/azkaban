@@ -1,0 +1,6 @@
+#1.1__lend_decision_data_result_record_finup_lend_(2_9_12)
+type = flow
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+dependencies = 1_start_finup_lend
+flow.name = 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)

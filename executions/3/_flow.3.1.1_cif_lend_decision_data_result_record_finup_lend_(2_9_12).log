@@ -1,0 +1,41 @@
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Assigned executor : 172.16.90.128:12321
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Running execid:3 flow:1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) project:1 version:1
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Updating initial flow directory.
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Fetching job and shared properties.
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Starting flows
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Running flow '1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)'.
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Configuring Azkaban metrics tracking for jobrunner object
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Submitting job '1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)' to run.
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Created file appender for job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Attached file appender for job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) finished with status FAILED in 0 seconds
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Job '1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)' will be retried. Attempt 0 of 3
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Configuring Azkaban metrics tracking for jobrunner object
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Submitting job '1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)' to run.
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Created file appender for job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Attached file appender for job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - No attachment file for job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) written.
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) finished with status FAILED in 0 seconds
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Job '1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)' will be retried. Attempt 1 of 3
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Configuring Azkaban metrics tracking for jobrunner object
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Submitting job '1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)' to run.
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Created file appender for job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - No attachment file for job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) written.
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Attached file appender for job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) finished with status FAILED in 0 seconds
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Job '1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)' will be retried. Attempt 2 of 3
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Configuring Azkaban metrics tracking for jobrunner object
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Submitting job '1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)' to run.
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - No attachment file for job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) written.
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Created file appender for job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Attached file appender for job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) finished with status FAILED in 0 seconds
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Job '1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)' has run out of retry attempts
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Setting 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) to FAILED_FINISHING
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Cancelling '1.1_ods_lend_decision_data_result_record_finup_lend_(2_9_12)' due to prior errors.
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - No attachment file for job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) written.
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Cancelling '1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)' due to prior errors.
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Setting flow '' status to FAILED in 0 seconds
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Finishing up flow. Awaiting Termination
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Finished Flow
+31-08-2017 18:42:52 CST 1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Setting end time for flow 3 to 1504176172840

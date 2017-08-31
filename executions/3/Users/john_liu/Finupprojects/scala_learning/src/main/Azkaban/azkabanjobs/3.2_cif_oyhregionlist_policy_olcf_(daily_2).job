@@ -1,0 +1,8 @@
+#3.2_cif_oyhregionlist_policy_olcf_(daily_2)
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+retries = 3
+retry.back = 30000
+dependencies = 3.2_ods_oyhregionlist_policy_olcf_(daily_2)
+command = /data/cloud/deploy/scripts/bigdata/puhui_data_platform/mianEdwTrans.sh    cif_policy_olcf_oyhregionlist cif

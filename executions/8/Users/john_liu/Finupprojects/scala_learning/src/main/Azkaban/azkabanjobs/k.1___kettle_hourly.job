@@ -1,0 +1,6 @@
+#k.1___kettle_hourly
+type = flow
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+dependencies = 1.2__lend_customer_finup_lend_hourly,1.3__lend_request_finup_lend_hourly
+flow.name = k.1_kettle_job_run_sh_person_loan__hourly

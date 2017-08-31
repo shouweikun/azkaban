@@ -1,0 +1,21 @@
+31-08-2017 18:40:17 CST 1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Starting job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) attempt 1 at 1504176017523
+31-08-2017 18:40:17 CST 1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - azkaban.webserver.url property was not set
+31-08-2017 18:40:17 CST 1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - job JVM args: -Dazkaban.flowid=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) -Dazkaban.execid=2 -Dazkaban.jobid=1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)
+31-08-2017 18:40:17 CST 1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Building command job executor. 
+31-08-2017 18:40:17 CST 1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Memory granted for job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12)
+31-08-2017 18:40:17 CST 1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - 1 commands to execute.
+31-08-2017 18:40:17 CST 1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - effective user is: azkaban
+31-08-2017 18:40:17 CST 1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) ERROR - Job run failed!
+azkaban.utils.UndefinedPropertyException: Missing required property 'azkaban.native.lib'
+	at azkaban.utils.Props.getString(Props.java:426)
+	at azkaban.jobExecutor.ProcessJob.run(ProcessJob.java:219)
+	at azkaban.execapp.JobRunner.runJob(JobRunner.java:741)
+	at azkaban.execapp.JobRunner.doRun(JobRunner.java:583)
+	at azkaban.execapp.JobRunner.run(JobRunner.java:544)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+31-08-2017 18:40:17 CST 1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) ERROR - Missing required property 'azkaban.native.lib' cause: null
+31-08-2017 18:40:17 CST 1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) INFO - Finishing job 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12) attempt: 1 at 1504176017534 with status FAILED

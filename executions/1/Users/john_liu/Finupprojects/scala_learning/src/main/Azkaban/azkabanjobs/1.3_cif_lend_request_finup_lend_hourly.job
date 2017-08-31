@@ -1,0 +1,8 @@
+#1.3_cif_lend_request_finup_lend_hourly
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+retries = 3
+retry.back = 30000
+dependencies = 1.3_ods_lend_request_finup_lend_hourly
+command = python /data/cloud/deploy/scripts/bigdata/puhui_data_platform/bin/hourly/finup_lend/cif_finup_lend_lend_request_hourly.py

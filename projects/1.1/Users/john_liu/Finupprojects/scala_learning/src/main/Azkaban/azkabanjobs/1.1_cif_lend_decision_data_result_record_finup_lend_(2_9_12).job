@@ -1,0 +1,8 @@
+#1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+retries = 3
+retry.back = 30000
+dependencies = 1.1_ods_lend_decision_data_result_record_finup_lend_(2_9_12)
+command = /data/cloud/deploy/scripts/bigdata/puhui_data_platform/mianEdwTrans.sh cif_finup_lend_lend_decision_data_result_record cif

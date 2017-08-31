@@ -1,0 +1,8 @@
+#1.5_kettle_customer_star_result_finup_lend_(2_9_12)
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+retries = 3
+retry.back = 3000
+dependencies = 1.5_cif_customer_star_result_finup_lend_(2_9_12)
+command = sh /usr/local/cloud/confs/kettle/run_sh/job_run_sh_customer_star_result.sh

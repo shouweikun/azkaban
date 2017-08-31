@@ -1,0 +1,5 @@
+#2.6__cc_user_puhui_cc_(daily_2)
+type = flow
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+flow.name = 2.6_cif_cc_user_puhui_cc_(daily_2)

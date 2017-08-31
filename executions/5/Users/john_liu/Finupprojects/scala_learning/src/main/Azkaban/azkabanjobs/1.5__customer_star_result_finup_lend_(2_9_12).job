@@ -1,0 +1,6 @@
+#1.5__customer_star_result_finup_lend_(2_9_12)
+type = flow
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+dependencies = 1.1__lend_decision_data_result_record_finup_lend_(2_9_12),1.2__lend_customer_finup_lend_hourly,1.3__lend_request_finup_lend_hourly,1.4__lend_organization_finup_lend_(2_9_12)
+flow.name = 1.5_kettle_customer_star_result_finup_lend_(2_9_12)

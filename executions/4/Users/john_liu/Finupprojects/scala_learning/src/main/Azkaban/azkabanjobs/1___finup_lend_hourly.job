@@ -1,0 +1,6 @@
+#1___finup_lend_hourly
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+dependencies = k.1___kettle_hourly
+command = echo "end hourly"

@@ -1,0 +1,8 @@
+#2.4_cif_cc_sales_chance _puhui_cc_(daily_2)
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+retries = 3
+retry.back = 30000
+dependencies = 2.4_ods_cc_sales_chance _puhui_cc_(daily_2)
+command = /data/cloud/deploy/scripts/bigdata/puhui_data_platform/mianEdwTrans.sh    cif_puhui_cc_cc_sales_chance  cif

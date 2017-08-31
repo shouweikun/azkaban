@@ -1,0 +1,7 @@
+#k.1_kettle_job_run_sh_person_loan__hourly
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+retries = 3
+retry.back = 30000
+command = sh /usr/local/cloud/confs/kettle/run_sh/job_run_sh_person_loan.sh

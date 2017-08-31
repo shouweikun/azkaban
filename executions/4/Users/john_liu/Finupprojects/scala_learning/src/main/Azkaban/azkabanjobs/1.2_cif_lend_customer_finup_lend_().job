@@ -1,0 +1,7 @@
+#1.2_cif_lend_customer_finup_lend_()
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+retries = 3
+retry.back = 30000
+command = /data/cloud/deploy/scripts/bigdata/puhui_data_platform/mianEdwTrans.sh cif_finup_lend_lend_customer cif

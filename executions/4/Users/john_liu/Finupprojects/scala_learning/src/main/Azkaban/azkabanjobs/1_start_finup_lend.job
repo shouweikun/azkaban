@@ -1,0 +1,5 @@
+#1_start_finup_lend
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+command = echo "start "
