@@ -1,0 +1,7 @@
+#3.1_buffer_ln_blacklist_open_1221_policy_olcf_(daily_2)
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+retries = 3
+retry.back = 30000
+command = sh /data/cloud/deploy/scripts/bigdata/puhui_data_platform/transKetter.sh ln_blacklist_open_1221 policy_olcf buffer default policy_olcf

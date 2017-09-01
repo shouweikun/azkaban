@@ -1,0 +1,7 @@
+#1.5_cif_customer_star_result_finup_lend_(2_9_12)
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+retries = 3
+retry.back = 300000
+command = python /data/cloud/deploy/scripts/bigdata/puhui_data_platform/bin/hourly/finup_lend/cif_finup_lend_customer_star_result.py

@@ -1,0 +1,6 @@
+#1___finup_lend_(2_9_12)
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+dependencies = 1.5__customer_star_result_finup_lend_(2_9_12),1_sub__finup_lend_(2_9_12)
+command = echo "end(2_9_12)"

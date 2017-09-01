@@ -2035,3 +2035,509 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 2017/08/31 19:49:26.437 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jmx MBean azkaban.execapp.jmx.JmxFlowRunnerManager:name=flowRunnerManager unregistered.
 2017/08/31 19:49:26.437 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jmx MBean azkaban.execapp.jmx.JmxJobMBeanManager:name=jobJMXMBean unregistered.
 2017/08/31 19:49:26.437 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jmx MBean azkaban.execapp.jmx.JmxJobCallback:name=jobCallbackJMXMBean unregistered.
+2017/09/01 10:38:24.073 +0800 INFO [AzkabanWebServer] [Azkaban] Starting Azkaban Server
+2017/09/01 10:38:24.096 +0800 INFO [AzkabanServer] [Azkaban] Loading azkaban settings file from /Users/john_liu/IdeaProjects/azkaban/azkaban-john/azkaban-solo-server/src/main/resources/conf
+2017/09/01 10:38:24.096 +0800 INFO [AzkabanServer] [Azkaban] Loading azkaban properties file
+2017/09/01 10:38:24.101 +0800 INFO [AzkabanDatabaseUpdater] [Azkaban] Use scripting directory /Users/john_liu/IdeaProjects/azkaban/azkaban-john/azkaban-solo-server/src/main/resources/sql
+2017/09/01 10:38:24.103 +0800 INFO [AzkabanDatabaseUpdater] [Azkaban] Will auto update any changes.
+2017/09/01 10:38:24.118 +0800 INFO [DataSourceUtils] [Azkaban] h2 DB path: /Users/john_liu/IdeaProjects/azkaban/azkaban-john/./h2
+2017/09/01 10:38:24.169 +0800 INFO [AzkabanDatabaseSetup] [Azkaban] Searching for installed tables
+2017/09/01 10:38:24.719 +0800 INFO [AzkabanDatabaseSetup] [Azkaban] Searching for table versions in the properties table
+2017/09/01 10:38:24.734 +0800 INFO [AzkabanDatabaseUpdater] [Azkaban] Everything looks up to date.
+2017/09/01 10:38:25.279 +0800 INFO [WebServerProvider] [Azkaban] Setting up connector with stats on: true
+2017/09/01 10:38:25.295 +0800 INFO [WebServerProvider] [Azkaban] Starting server on port: 8081
+2017/09/01 10:38:25.355 +0800 INFO [DataSourceUtils] [Azkaban] h2 DB path: /Users/john_liu/IdeaProjects/azkaban/azkaban-john/./h2
+2017/09/01 10:38:25.369 +0800 INFO [ExecutorManager] [Azkaban] Initializing local executor localhost:12321
+2017/09/01 10:38:25.436 +0800 INFO [ExecutorManager] [Azkaban] Cleaning old logs from execution_logs
+2017/09/01 10:38:25.437 +0800 INFO [AzkabanCommonModule] [Azkaban] h2 DB path: /Users/john_liu/IdeaProjects/azkaban/azkaban-john/./h2
+2017/09/01 10:38:25.437 +0800 INFO [AzkabanProjectLoader] [Azkaban] Using temp dir: /Users/john_liu/IdeaProjects/azkaban/azkaban-john/temp
+2017/09/01 10:38:25.438 +0800 INFO [AzkabanProjectLoader] [Azkaban] Project version retention is set to 3
+2017/09/01 10:38:25.440 +0800 WARN [XmlValidatorManager] [Azkaban] Validator directory validators does not exist or is not a directory.
+2017/09/01 10:38:25.443 +0800 WARN [XmlValidatorManager] [Azkaban] Azkaban properties file does not contain the key project.validators.xml.file
+2017/09/01 10:38:25.499 +0800 INFO [ExecutorManager] [Azkaban] Cleaning old log files before 2017-06-09T10:38:25.443+08:00
+2017/09/01 10:38:25.502 +0800 INFO [ExecutorManager] [Azkaban] Cleaned up 0 log entries.
+2017/09/01 10:38:25.503 +0800 INFO [ExecutorManager] [Azkaban] log clean up time: 0 seconds.
+2017/09/01 10:38:25.759 +0800 INFO [TriggerManager] [Azkaban] TriggerManager loaded.
+2017/09/01 10:38:25.777 +0800 INFO [AzkabanWebServerModule] [Azkaban] Loading user manager class azkaban.user.XmlUserManager
+2017/09/01 10:38:25.958 +0800 INFO [XmlUserManager] [Azkaban] Loading user azkaban
+2017/09/01 10:38:25.958 +0800 INFO [XmlUserManager] [Azkaban] Loading user metrics
+2017/09/01 10:38:25.960 +0800 INFO [TriggerManager] [Azkaban] TriggerManager loaded.
+2017/09/01 10:38:25.986 +0800 INFO [AzkabanWebServer] [Azkaban] Loading built-in checker and action types
+2017/09/01 10:38:25.991 +0800 INFO [CheckerTypeLoader] [Azkaban] Registering checker BasicTimeChecker
+2017/09/01 10:38:25.992 +0800 INFO [CheckerTypeLoader] [Azkaban] Registering checker SlaChecker
+2017/09/01 10:38:25.992 +0800 INFO [CheckerTypeLoader] [Azkaban] Registering checker ExecutionChecker
+2017/09/01 10:38:25.993 +0800 INFO [ActionTypeLoader] [Azkaban] Registering action ExecuteFlowAction
+2017/09/01 10:38:25.993 +0800 INFO [ActionTypeLoader] [Azkaban] Registering action KillExecutionAction
+2017/09/01 10:38:25.993 +0800 INFO [ActionTypeLoader] [Azkaban] Registering action AlertAction
+2017/09/01 10:38:25.994 +0800 INFO [ActionTypeLoader] [Azkaban] Registering action CreateTriggerAction
+2017/09/01 10:38:25.994 +0800 INFO [AzkabanWebServer] [Azkaban] Loading plug-in checker and action types
+2017/09/01 10:38:25.994 +0800 ERROR [AzkabanWebServer] [Azkaban] plugin path plugins/triggers doesn't exist!
+2017/09/01 10:38:25.994 +0800 INFO [AzkabanWebServer] [Azkaban] Setting timezone to Asia/Shanghai
+2017/09/01 10:38:25.994 +0800 INFO [AzkabanWebServer] [Azkaban] Registering MBeans...
+2017/09/01 10:38:26.005 +0800 INFO [AzkabanWebServer] [Azkaban] Bean azkaban.jmx.JmxJettyServer registered.
+2017/09/01 10:38:26.007 +0800 INFO [AzkabanWebServer] [Azkaban] Bean azkaban.jmx.JmxTriggerManager registered.
+2017/09/01 10:38:26.009 +0800 INFO [AzkabanWebServer] [Azkaban] Bean azkaban.jmx.JmxExecutorManager registered.
+2017/09/01 10:38:26.020 +0800 INFO [AzkabanWebServer] [Azkaban] Bean org.apache.log4j.jmx.HierarchyDynamicMBean registered.
+2017/09/01 10:38:26.022 +0800 INFO [FlowRunnerManager] [Azkaban] Execution dir retention set to 86400000 ms
+2017/09/01 10:38:26.023 +0800 INFO [FlowRunnerManager] [Azkaban] useNewThreadPool: false
+2017/09/01 10:38:26.025 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 10:38:26.025 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 10:38:26.025 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning old execution dirs
+2017/09/01 10:38:26.027 +0800 INFO [JobTypeManager] [Azkaban] Loading plugin default job types
+2017/09/01 10:38:26.034 +0800 INFO [AzkabanExecutorServer] [Azkaban] Setting up connector with stats on: true
+2017/09/01 10:38:26.034 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jetty connector name: 0.0.0.0:12321, default header buffer size: 4096
+2017/09/01 10:38:26.034 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jetty connector name: 0.0.0.0:12321, (if) new header buffer size: 4096
+2017/09/01 10:38:26.073 +0800 INFO [JmxJobMBeanManager] [Azkaban] Initializing azkaban.execapp.jmx.JmxJobMBeanManager
+2017/09/01 10:38:26.073 +0800 INFO [AzkabanExecutorServer] [Azkaban] Job callback enabled? true
+2017/09/01 10:38:26.076 +0800 INFO [JobCallbackManager] [Azkaban] Initializing
+2017/09/01 10:38:26.079 +0800 INFO [JobCallbackRequestMaker] [Azkaban] responseWaitTimeoutMS: 5000
+2017/09/01 10:38:26.081 +0800 INFO [JobCallbackRequestMaker] [Azkaban] Global request configuration [expectContinueEnabled=false, proxy=null, localAddress=null, cookieSpec=null, redirectsEnabled=true, relativeRedirectsAllowed=true, maxRedirects=50, circularRedirectsAllowed=false, authenticationEnabled=true, targetPreferredAuthSchemes=null, proxyPreferredAuthSchemes=null, connectionRequestTimeout=3000, connectTimeout=3000, socketTimeout=3000, contentCompressionEnabled=true]
+2017/09/01 10:38:26.301 +0800 INFO [JobCallbackRequestMaker] [Azkaban] Jobcall thread pool size: 10
+2017/09/01 10:38:26.303 +0800 INFO [JobCallbackRequestMaker] [Azkaban] Initialization for azkaban.execapp.event.JobCallbackRequestMaker is completed
+2017/09/01 10:38:26.311 +0800 INFO [JobCallbackManager] [Azkaban] Initialization completed azkaban.execapp.event.JobCallbackManager
+2017/09/01 10:38:26.311 +0800 INFO [JobCallbackManager] [Azkaban] azkabanHostName laplace-work.local
+2017/09/01 10:38:26.311 +0800 INFO [AzkabanExecutorServer] [Azkaban] Registering MBeans...
+2017/09/01 10:38:26.312 +0800 INFO [AzkabanExecutorServer] [Azkaban] Bean azkaban.jmx.JmxJettyServer registered.
+2017/09/01 10:38:26.313 +0800 INFO [AzkabanExecutorServer] [Azkaban] Bean azkaban.execapp.jmx.JmxFlowRunnerManager registered.
+2017/09/01 10:38:26.315 +0800 INFO [AzkabanExecutorServer] [Azkaban] Bean azkaban.execapp.jmx.JmxJobMBeanManager registered.
+2017/09/01 10:38:26.316 +0800 INFO [AzkabanExecutorServer] [Azkaban] Bean azkaban.execapp.jmx.JmxJobCallback registered.
+2017/09/01 10:38:26.316 +0800 INFO [AzkabanExecutorServer] [Azkaban] No value for property: jmx.attribute.processor.class was found
+2017/09/01 10:38:26.359 +0800 INFO [AzkabanExecutorServer] [Azkaban] Started Executor Server on 172.16.90.128:12321
+2017/09/01 10:38:26.359 +0800 INFO [AzkabanWebServer] [Azkaban] Setting up web resource dir /Users/john_liu/IdeaProjects/azkaban/azkaban-john/azkaban-web-server/src/web
+2017/09/01 10:38:26.403 +0800 INFO [JdbcTriggerImpl] [Azkaban] Loading all triggers from db.
+2017/09/01 10:38:26.404 +0800 INFO [JdbcTriggerImpl] [Azkaban] Loaded 0 triggers.
+2017/09/01 10:38:26.410 +0800 INFO [ProjectManagerServlet] [Azkaban] downloadBufferSize: 8192
+2017/09/01 10:38:26.569 +0800 INFO [AzkabanWebServer] [Azkaban] Server started
+2017/09/01 10:38:26.569 +0800 INFO [AzkabanWebServer] [Azkaban] Azkaban Web Server started...
+2017/09/01 10:38:26.570 +0800 INFO [AzkabanExecutorServer] [Azkaban] Setting timezone to Asia/Shanghai
+2017/09/01 10:38:26.570 +0800 INFO [AzkabanWebServer] [Azkaban] Azkaban Exec Server started...
+2017/09/01 10:38:42.280 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0  -  "GET /manager project=ddd&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&ajax=fetchFlowExecutions&start=0&length=16 HTTP/1.1" browser
+2017/09/01 10:38:44.452 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0  -  "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:38:44.454 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0  -  "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:38:47.310 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0  -  "GET /manager project=ddd&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:38:48.545 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0  -  "POST /manager project=ddd&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:38:48.563 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /manager project=ddd&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:38:48.689 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /manager ajax=fetchflowdetails&project=ddd&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:38:48.689 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /schedule ajax=fetchSchedule&projectId=1&flowId=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:38:48.695 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /manager project=ddd&ajax=fetchflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:38:59.073 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:38:59.074 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:39:00.822 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor projectId=1&project=ddd&ajax=executeFlow&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&disabled=%5B%5D&failureEmailsOverride=false&successEmailsOverride=false&failureAction=finishCurrent&failureEmails=liushouwei%40finupgroup.com&successEmails=liushouwei%40finupgroup.com&notifyFailureFirst=false&notifyFailureLast=false&concurrentOption=skip HTTP/1.1" browser
+2017/09/01 10:39:00.826 +0800 INFO [ExecutorManager] [Azkaban] Submitting execution flow 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) by azkaban
+2017/09/01 10:39:00.834 +0800 INFO [JdbcExecutorLoader] [Azkaban] Flow given 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) given id 9
+2017/09/01 10:39:00.907 +0800 INFO [ExecutorServlet] [Azkaban] User  has called action execute on 9
+2017/09/01 10:39:30.822 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 10:42:29.598 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 10:42:29.601 +0800 INFO [FlowPreparer] [Azkaban] Project already cached. Skipping download. ProjectVersion{projectId=1, version=1, installedDir=projects/1.1}
+2017/09/01 10:42:29.705 +0800 INFO [FlowPreparer] [Azkaban] Flow Preparation complete. [execid: 9, path: executions/9]
+2017/09/01 10:43:47.119 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 10:43:58.430 +0800 INFO [FlowRunnerManager] [Azkaban] Configuring Azkaban metrics tracking for flow runner object
+2017/09/01 10:44:47.965 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 1
+2017/09/01 10:44:47.967 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 10:45:35.751 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 10:45:50.441 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 1
+2017/09/01 10:46:05.803 +0800 INFO [ExecutorManager] [Azkaban] Successfully dispatched exec 9 with error count 0
+2017/09/01 10:46:50.591 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 1
+2017/09/01 10:46:51.437 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 10:46:51.867 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 10:46:51.978 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 10:46:52.081 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 10:46:52.265 +0800 INFO [FlowRunnerManager] [Azkaban] Flow 9 is finished. Adding it to recently finished flows list.
+2017/09/01 10:47:31.906 +0800 ERROR [EmailMessage] [Azkaban] Connecting to SMTP server failed, attempt: 0
+javax.mail.MessagingException: Exception reading response;
+  nested exception is:
+	java.net.SocketTimeoutException: Read timed out
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:2210)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1950)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:642)
+	at javax.mail.Service.connect(Service.java:295)
+	at azkaban.utils.EmailMessage.connectToSMTPServer(EmailMessage.java:242)
+	at azkaban.utils.EmailMessage.retryConnectToSMTPServer(EmailMessage.java:252)
+	at azkaban.utils.EmailMessage.sendEmail(EmailMessage.java:235)
+	at azkaban.utils.Emailer.sendErrorEmail(Emailer.java:160)
+	at azkaban.utils.Emailer.alertOnError(Emailer.java:204)
+	at azkaban.executor.ExecutorManager.finalizeFlows(ExecutorManager.java:1421)
+	at azkaban.executor.ExecutorManager.access$1000(ExecutorManager.java:71)
+	at azkaban.executor.ExecutorManager$ExecutingManagerUpdaterThread.run(ExecutorManager.java:1347)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.sun.mail.util.TraceInputStream.read(TraceInputStream.java:110)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at com.sun.mail.util.LineInputStream.readLine(LineInputStream.java:89)
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:2188)
+	... 11 more
+2017/09/01 10:47:51.545 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 10:48:53.752 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 10:48:54.240 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 10:48:55.258 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning execution 9 from recently finished flows list.
+2017/09/01 10:49:09.931 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor execid=9 HTTP/1.1" browser
+2017/09/01 10:49:10.494 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor execid=9&ajax=fetchExecFlowLogs&offset=0&length=50000 HTTP/1.1" browser
+2017/09/01 10:49:10.622 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor execid=9&ajax=fetchexecflow HTTP/1.1" browser
+2017/09/01 10:49:10.681 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor execid=9&ajax=fetchExecFlowLogs&offset=7006&length=50000 HTTP/1.1" browser
+2017/09/01 10:49:57.010 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 10:52:38.926 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 10:52:38.927 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 10:53:04.591 +0800 INFO [AzkabanWebServer] [Azkaban] logging top memeory consumer
+2017/09/01 10:53:04.591 +0800 INFO [AzkabanExecutorServer] [Azkaban] logging top memeory consumer
+2017/09/01 10:53:04.618 +0800 INFO [AzkabanWebServer] [Azkaban] Shutting down http server...
+2017/09/01 10:53:04.618 +0800 INFO [AzkabanWebServer] [Azkaban] Jmx MBean azkaban.jmx.JmxJettyServer:name=jetty unregistered.
+2017/09/01 10:53:04.618 +0800 INFO [AzkabanWebServer] [Azkaban] Jmx MBean azkaban.jmx.JmxTriggerManager:name=triggerManager unregistered.
+2017/09/01 10:53:04.618 +0800 INFO [AzkabanWebServer] [Azkaban] Jmx MBean azkaban.jmx.JmxExecutorManager:name=executorManager unregistered.
+2017/09/01 10:53:04.618 +0800 INFO [AzkabanWebServer] [Azkaban] Jmx MBean org.apache.log4j.jmx.HierarchyDynamicMBean:name=log4jmxbean unregistered.
+2017/09/01 10:53:04.620 +0800 INFO [AzkabanWebServer] [Azkaban] kk thx bye.
+2017/09/01 10:53:04.621 +0800 INFO [AzkabanExecutorServer] [Azkaban] Removing executor(host: 172.16.90.128, port: 12321) entry from database...
+2017/09/01 10:53:04.634 +0800 WARN [AzkabanExecutorServer] [Azkaban] Shutting down executor...
+2017/09/01 10:53:04.635 +0800 WARN [FlowRunnerManager] [Azkaban] Shutting down FlowRunnerManager now...
+2017/09/01 10:53:04.635 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jmx MBean azkaban.jmx.JmxJettyServer:name=executorJetty unregistered.
+2017/09/01 10:53:04.635 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jmx MBean azkaban.execapp.jmx.JmxFlowRunnerManager:name=flowRunnerManager unregistered.
+2017/09/01 10:53:04.636 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jmx MBean azkaban.execapp.jmx.JmxJobMBeanManager:name=jobJMXMBean unregistered.
+2017/09/01 10:53:04.636 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jmx MBean azkaban.execapp.jmx.JmxJobCallback:name=jobCallbackJMXMBean unregistered.
+2017/09/01 10:53:09.868 +0800 INFO [AzkabanWebServer] [Azkaban] Starting Azkaban Server
+2017/09/01 10:53:09.901 +0800 INFO [AzkabanServer] [Azkaban] Loading azkaban settings file from /Users/john_liu/IdeaProjects/azkaban/azkaban-john/azkaban-solo-server/src/main/resources/conf
+2017/09/01 10:53:09.902 +0800 INFO [AzkabanServer] [Azkaban] Loading azkaban properties file
+2017/09/01 10:53:09.907 +0800 INFO [AzkabanDatabaseUpdater] [Azkaban] Use scripting directory /Users/john_liu/IdeaProjects/azkaban/azkaban-john/azkaban-solo-server/src/main/resources/sql
+2017/09/01 10:53:09.910 +0800 INFO [AzkabanDatabaseUpdater] [Azkaban] Will auto update any changes.
+2017/09/01 10:53:09.924 +0800 INFO [DataSourceUtils] [Azkaban] h2 DB path: /Users/john_liu/IdeaProjects/azkaban/azkaban-john/./h2
+2017/09/01 10:53:09.970 +0800 INFO [AzkabanDatabaseSetup] [Azkaban] Searching for installed tables
+2017/09/01 10:53:10.801 +0800 INFO [AzkabanDatabaseSetup] [Azkaban] Searching for table versions in the properties table
+2017/09/01 10:53:10.821 +0800 INFO [AzkabanDatabaseUpdater] [Azkaban] Everything looks up to date.
+2017/09/01 10:53:11.447 +0800 INFO [WebServerProvider] [Azkaban] Setting up connector with stats on: true
+2017/09/01 10:53:11.465 +0800 INFO [WebServerProvider] [Azkaban] Starting server on port: 8081
+2017/09/01 10:53:11.535 +0800 INFO [DataSourceUtils] [Azkaban] h2 DB path: /Users/john_liu/IdeaProjects/azkaban/azkaban-john/./h2
+2017/09/01 10:53:11.552 +0800 INFO [ExecutorManager] [Azkaban] Initializing local executor localhost:12321
+2017/09/01 10:53:11.594 +0800 INFO [ExecutorManager] [Azkaban] Cleaning old logs from execution_logs
+2017/09/01 10:53:11.595 +0800 INFO [AzkabanCommonModule] [Azkaban] h2 DB path: /Users/john_liu/IdeaProjects/azkaban/azkaban-john/./h2
+2017/09/01 10:53:11.596 +0800 INFO [AzkabanProjectLoader] [Azkaban] Using temp dir: /Users/john_liu/IdeaProjects/azkaban/azkaban-john/temp
+2017/09/01 10:53:11.596 +0800 INFO [AzkabanProjectLoader] [Azkaban] Project version retention is set to 3
+2017/09/01 10:53:11.598 +0800 WARN [XmlValidatorManager] [Azkaban] Validator directory validators does not exist or is not a directory.
+2017/09/01 10:53:11.601 +0800 WARN [XmlValidatorManager] [Azkaban] Azkaban properties file does not contain the key project.validators.xml.file
+2017/09/01 10:53:11.658 +0800 INFO [ExecutorManager] [Azkaban] Cleaning old log files before 2017-06-09T10:53:11.601+08:00
+2017/09/01 10:53:11.660 +0800 INFO [ExecutorManager] [Azkaban] Cleaned up 0 log entries.
+2017/09/01 10:53:11.660 +0800 INFO [ExecutorManager] [Azkaban] log clean up time: 0 seconds.
+2017/09/01 10:53:11.896 +0800 INFO [TriggerManager] [Azkaban] TriggerManager loaded.
+2017/09/01 10:53:11.917 +0800 INFO [AzkabanWebServerModule] [Azkaban] Loading user manager class azkaban.user.XmlUserManager
+2017/09/01 10:53:12.080 +0800 INFO [XmlUserManager] [Azkaban] Loading user azkaban
+2017/09/01 10:53:12.080 +0800 INFO [XmlUserManager] [Azkaban] Loading user metrics
+2017/09/01 10:53:12.081 +0800 INFO [TriggerManager] [Azkaban] TriggerManager loaded.
+2017/09/01 10:53:12.103 +0800 INFO [AzkabanWebServer] [Azkaban] Loading built-in checker and action types
+2017/09/01 10:53:12.106 +0800 INFO [CheckerTypeLoader] [Azkaban] Registering checker BasicTimeChecker
+2017/09/01 10:53:12.107 +0800 INFO [CheckerTypeLoader] [Azkaban] Registering checker SlaChecker
+2017/09/01 10:53:12.107 +0800 INFO [CheckerTypeLoader] [Azkaban] Registering checker ExecutionChecker
+2017/09/01 10:53:12.107 +0800 INFO [ActionTypeLoader] [Azkaban] Registering action ExecuteFlowAction
+2017/09/01 10:53:12.107 +0800 INFO [ActionTypeLoader] [Azkaban] Registering action KillExecutionAction
+2017/09/01 10:53:12.108 +0800 INFO [ActionTypeLoader] [Azkaban] Registering action AlertAction
+2017/09/01 10:53:12.108 +0800 INFO [ActionTypeLoader] [Azkaban] Registering action CreateTriggerAction
+2017/09/01 10:53:12.108 +0800 INFO [AzkabanWebServer] [Azkaban] Loading plug-in checker and action types
+2017/09/01 10:53:12.108 +0800 ERROR [AzkabanWebServer] [Azkaban] plugin path plugins/triggers doesn't exist!
+2017/09/01 10:53:12.108 +0800 INFO [AzkabanWebServer] [Azkaban] Setting timezone to Asia/Shanghai
+2017/09/01 10:53:12.108 +0800 INFO [AzkabanWebServer] [Azkaban] Registering MBeans...
+2017/09/01 10:53:12.118 +0800 INFO [AzkabanWebServer] [Azkaban] Bean azkaban.jmx.JmxJettyServer registered.
+2017/09/01 10:53:12.120 +0800 INFO [AzkabanWebServer] [Azkaban] Bean azkaban.jmx.JmxTriggerManager registered.
+2017/09/01 10:53:12.122 +0800 INFO [AzkabanWebServer] [Azkaban] Bean azkaban.jmx.JmxExecutorManager registered.
+2017/09/01 10:53:12.134 +0800 INFO [AzkabanWebServer] [Azkaban] Bean org.apache.log4j.jmx.HierarchyDynamicMBean registered.
+2017/09/01 10:53:12.136 +0800 INFO [FlowRunnerManager] [Azkaban] Execution dir retention set to 86400000 ms
+2017/09/01 10:53:12.138 +0800 INFO [FlowRunnerManager] [Azkaban] useNewThreadPool: false
+2017/09/01 10:53:12.140 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 10:53:12.140 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 10:53:12.141 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning old execution dirs
+2017/09/01 10:53:12.142 +0800 INFO [JobTypeManager] [Azkaban] Loading plugin default job types
+2017/09/01 10:53:12.150 +0800 INFO [AzkabanExecutorServer] [Azkaban] Setting up connector with stats on: true
+2017/09/01 10:53:12.150 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jetty connector name: 0.0.0.0:12321, default header buffer size: 4096
+2017/09/01 10:53:12.150 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jetty connector name: 0.0.0.0:12321, (if) new header buffer size: 4096
+2017/09/01 10:53:12.188 +0800 INFO [JmxJobMBeanManager] [Azkaban] Initializing azkaban.execapp.jmx.JmxJobMBeanManager
+2017/09/01 10:53:12.189 +0800 INFO [AzkabanExecutorServer] [Azkaban] Job callback enabled? true
+2017/09/01 10:53:12.193 +0800 INFO [JobCallbackManager] [Azkaban] Initializing
+2017/09/01 10:53:12.196 +0800 INFO [JobCallbackRequestMaker] [Azkaban] responseWaitTimeoutMS: 5000
+2017/09/01 10:53:12.197 +0800 INFO [JobCallbackRequestMaker] [Azkaban] Global request configuration [expectContinueEnabled=false, proxy=null, localAddress=null, cookieSpec=null, redirectsEnabled=true, relativeRedirectsAllowed=true, maxRedirects=50, circularRedirectsAllowed=false, authenticationEnabled=true, targetPreferredAuthSchemes=null, proxyPreferredAuthSchemes=null, connectionRequestTimeout=3000, connectTimeout=3000, socketTimeout=3000, contentCompressionEnabled=true]
+2017/09/01 10:53:12.404 +0800 INFO [JobCallbackRequestMaker] [Azkaban] Jobcall thread pool size: 10
+2017/09/01 10:53:12.406 +0800 INFO [JobCallbackRequestMaker] [Azkaban] Initialization for azkaban.execapp.event.JobCallbackRequestMaker is completed
+2017/09/01 10:53:12.417 +0800 INFO [JobCallbackManager] [Azkaban] Initialization completed azkaban.execapp.event.JobCallbackManager
+2017/09/01 10:53:12.417 +0800 INFO [JobCallbackManager] [Azkaban] azkabanHostName laplace-work.local
+2017/09/01 10:53:12.417 +0800 INFO [AzkabanExecutorServer] [Azkaban] Registering MBeans...
+2017/09/01 10:53:12.418 +0800 INFO [AzkabanExecutorServer] [Azkaban] Bean azkaban.jmx.JmxJettyServer registered.
+2017/09/01 10:53:12.420 +0800 INFO [AzkabanExecutorServer] [Azkaban] Bean azkaban.execapp.jmx.JmxFlowRunnerManager registered.
+2017/09/01 10:53:12.421 +0800 INFO [AzkabanExecutorServer] [Azkaban] Bean azkaban.execapp.jmx.JmxJobMBeanManager registered.
+2017/09/01 10:53:12.422 +0800 INFO [AzkabanExecutorServer] [Azkaban] Bean azkaban.execapp.jmx.JmxJobCallback registered.
+2017/09/01 10:53:12.422 +0800 INFO [AzkabanExecutorServer] [Azkaban] No value for property: jmx.attribute.processor.class was found
+2017/09/01 10:53:12.469 +0800 INFO [AzkabanExecutorServer] [Azkaban] Started Executor Server on 172.16.90.128:12321
+2017/09/01 10:53:12.470 +0800 INFO [AzkabanWebServer] [Azkaban] Setting up web resource dir /Users/john_liu/IdeaProjects/azkaban/azkaban-john/azkaban-web-server/src/web
+2017/09/01 10:53:12.507 +0800 INFO [JdbcTriggerImpl] [Azkaban] Loading all triggers from db.
+2017/09/01 10:53:12.508 +0800 INFO [JdbcTriggerImpl] [Azkaban] Loaded 0 triggers.
+2017/09/01 10:53:12.513 +0800 INFO [ProjectManagerServlet] [Azkaban] downloadBufferSize: 8192
+2017/09/01 10:53:12.658 +0800 INFO [AzkabanWebServer] [Azkaban] Server started
+2017/09/01 10:53:12.658 +0800 INFO [AzkabanWebServer] [Azkaban] Azkaban Web Server started...
+2017/09/01 10:53:12.658 +0800 INFO [AzkabanExecutorServer] [Azkaban] Setting timezone to Asia/Shanghai
+2017/09/01 10:53:12.659 +0800 INFO [AzkabanWebServer] [Azkaban] Azkaban Exec Server started...
+2017/09/01 10:54:12.143 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 10:55:12.145 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 10:55:12.145 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 10:55:52.540 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0  -  "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:55:52.540 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0  -  "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:55:55.810 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0  -  "GET /manager project=ddd&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:55:56.879 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0  -  "POST /manager project=ddd&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:55:56.893 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /manager project=ddd&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:55:57.041 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /manager ajax=fetchflowdetails&project=ddd&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:55:57.042 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /schedule ajax=fetchSchedule&projectId=1&flowId=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:55:57.050 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /manager project=ddd&ajax=fetchflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:55:57.783 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:55:57.784 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 10:55:59.179 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor projectId=1&project=ddd&ajax=executeFlow&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&disabled=%5B%5D&failureEmailsOverride=false&successEmailsOverride=false&failureAction=finishCurrent&failureEmails=liushouwei%40finupgroup.com&successEmails=liushouwei%40finupgroup.com&notifyFailureFirst=false&notifyFailureLast=false&concurrentOption=skip HTTP/1.1" browser
+2017/09/01 10:55:59.182 +0800 INFO [ExecutorManager] [Azkaban] Submitting execution flow 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) by azkaban
+2017/09/01 10:55:59.189 +0800 INFO [JdbcExecutorLoader] [Azkaban] Flow given 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) given id 10
+2017/09/01 10:55:59.255 +0800 INFO [ExecutorServlet] [Azkaban] User  has called action execute on 10
+2017/09/01 10:56:03.382 +0800 INFO [FlowPreparer] [Azkaban] Project already cached. Skipping download. ProjectVersion{projectId=1, version=1, installedDir=projects/1.1}
+2017/09/01 10:56:03.448 +0800 INFO [FlowPreparer] [Azkaban] Flow Preparation complete. [execid: 10, path: executions/10]
+2017/09/01 10:56:03.457 +0800 INFO [FlowRunnerManager] [Azkaban] Configuring Azkaban metrics tracking for flow runner object
+2017/09/01 10:56:03.507 +0800 INFO [ExecutorManager] [Azkaban] Successfully dispatched exec 10 with error count 0
+2017/09/01 10:56:03.532 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 10:56:03.673 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 10:56:03.686 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 10:56:03.697 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 10:56:03.733 +0800 INFO [FlowRunnerManager] [Azkaban] Flow 10 is finished. Adding it to recently finished flows list.
+2017/09/01 10:56:40.022 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 10:57:53.824 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 10:57:55.590 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 10:57:55.592 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning execution 10 from recently finished flows list.
+2017/09/01 10:58:55.594 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:00:43.231 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:00:43.231 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:01:43.233 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:02:43.233 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:02:43.233 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:03:43.235 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:04:43.233 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:04:43.234 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:05:43.234 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:06:43.236 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:06:43.236 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:07:43.238 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:08:43.239 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:08:43.240 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:09:43.241 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:10:43.240 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:10:43.242 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:11:43.244 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:12:43.243 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:12:43.243 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:13:43.246 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:14:43.246 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:14:43.247 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:15:43.250 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:16:43.248 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:16:43.248 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:17:43.246 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:18:43.250 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:18:43.250 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:19:43.253 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:20:43.253 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:20:43.253 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:21:43.256 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:22:43.259 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:22:43.260 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:23:43.263 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:24:31.017 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET / - HTTP/1.1" browser
+2017/09/01 11:24:31.019 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /index - HTTP/1.1" browser
+2017/09/01 11:24:33.059 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /manager project=ddd HTTP/1.1" browser
+2017/09/01 11:24:34.394 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /manager project=ddd&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:24:34.491 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /manager ajax=fetchflowdetails&project=ddd&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:24:34.491 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /schedule ajax=fetchSchedule&projectId=1&flowId=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:24:34.497 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /manager project=ddd&ajax=fetchflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:24:36.546 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:24:36.547 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:24:43.263 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:24:43.263 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:25:03.560 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor projectId=1&project=ddd&ajax=executeFlow&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&disabled=%5B%5D&failureEmailsOverride=true&successEmailsOverride=false&failureAction=finishCurrent&failureEmails=&successEmails=liushouwei%40finupgroup.com&notifyFailureFirst=false&notifyFailureLast=false&concurrentOption=skip HTTP/1.1" browser
+2017/09/01 11:25:03.560 +0800 INFO [ExecutorManager] [Azkaban] Submitting execution flow 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) by azkaban
+2017/09/01 11:25:03.562 +0800 INFO [JdbcExecutorLoader] [Azkaban] Flow given 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) given id 11
+2017/09/01 11:25:03.573 +0800 INFO [ExecutorServlet] [Azkaban] User  has called action execute on 11
+2017/09/01 11:25:44.955 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:25:44.956 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:44.956 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor projectId=1&project=ddd&ajax=executeFlow&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&disabled=%5B%5D&failureEmailsOverride=true&successEmailsOverride=false&failureAction=finishCurrent&failureEmails=&successEmails=liushouwei%40finupgroup.com&notifyFailureFirst=false&notifyFailureLast=false&concurrentOption=skip HTTP/1.1" browser
+2017/09/01 11:25:44.956 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:44.956 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor projectId=1&project=ddd&ajax=executeFlow&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&disabled=%5B%5D&failureEmailsOverride=true&successEmailsOverride=false&failureAction=finishCurrent&failureEmails=&successEmails=liushouwei%40finupgroup.com&notifyFailureFirst=false&notifyFailureLast=false&concurrentOption=skip HTTP/1.1" browser
+2017/09/01 11:25:44.956 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor projectId=1&project=ddd&ajax=executeFlow&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&disabled=%5B%5D&failureEmailsOverride=true&successEmailsOverride=false&failureAction=finishCurrent&failureEmails=&successEmails=liushouwei%40finupgroup.com&notifyFailureFirst=false&notifyFailureLast=false&concurrentOption=skip HTTP/1.1" browser
+2017/09/01 11:25:44.958 +0800 INFO [FlowPreparer] [Azkaban] Project already cached. Skipping download. ProjectVersion{projectId=1, version=1, installedDir=projects/1.1}
+2017/09/01 11:25:44.960 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor projectId=1&project=ddd&ajax=executeFlow&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&disabled=%5B%5D&failureEmailsOverride=true&successEmailsOverride=false&failureAction=finishCurrent&failureEmails=&successEmails=liushouwei%40finupgroup.com&notifyFailureFirst=false&notifyFailureLast=false&concurrentOption=skip HTTP/1.1" browser
+2017/09/01 11:25:44.961 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor projectId=1&project=ddd&ajax=executeFlow&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&disabled=%5B%5D&failureEmailsOverride=true&successEmailsOverride=false&failureAction=finishCurrent&failureEmails=&successEmails=liushouwei%40finupgroup.com&notifyFailureFirst=false&notifyFailureLast=false&concurrentOption=skip HTTP/1.1" browser
+2017/09/01 11:25:45.041 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:45.046 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor projectId=1&project=ddd&ajax=executeFlow&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&disabled=%5B%5D&failureEmailsOverride=true&successEmailsOverride=false&failureAction=finishCurrent&failureEmails=&successEmails=liushouwei%40finupgroup.com&notifyFailureFirst=false&notifyFailureLast=false&concurrentOption=skip HTTP/1.1" browser
+2017/09/01 11:25:45.052 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:45.056 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor projectId=1&project=ddd&ajax=executeFlow&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&disabled=%5B%5D&failureEmailsOverride=true&successEmailsOverride=false&failureAction=finishCurrent&failureEmails=&successEmails=liushouwei%40finupgroup.com&notifyFailureFirst=false&notifyFailureLast=false&concurrentOption=skip HTTP/1.1" browser
+2017/09/01 11:25:45.061 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:45.064 +0800 INFO [FlowPreparer] [Azkaban] Flow Preparation complete. [execid: 11, path: executions/11]
+2017/09/01 11:25:45.065 +0800 INFO [FlowRunnerManager] [Azkaban] Configuring Azkaban metrics tracking for flow runner object
+2017/09/01 11:25:45.065 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:45.066 +0800 INFO [ExecutorManager] [Azkaban] Successfully dispatched exec 11 with error count 0
+2017/09/01 11:25:45.067 +0800 INFO [ExecutorManager] [Azkaban] Submitting execution flow 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) by azkaban
+2017/09/01 11:25:45.069 +0800 INFO [ExecutorManager] [Azkaban] Submitting execution flow 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) by azkaban
+2017/09/01 11:25:45.069 +0800 INFO [ExecutorManager] [Azkaban] Submitting execution flow 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) by azkaban
+2017/09/01 11:25:45.069 +0800 INFO [ExecutorManager] [Azkaban] Submitting execution flow 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) by azkaban
+2017/09/01 11:25:45.070 +0800 INFO [ExecutorManager] [Azkaban] Submitting execution flow 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) by azkaban
+2017/09/01 11:25:45.071 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:45.071 +0800 INFO [ExecutorManager] [Azkaban] Submitting execution flow 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) by azkaban
+2017/09/01 11:25:45.071 +0800 INFO [ExecutorManager] [Azkaban] Submitting execution flow 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) by azkaban
+2017/09/01 11:25:45.074 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:25:45.218 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:45.218 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:45.227 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:45.238 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:45.238 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:45.250 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /manager project=ddd&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:45.254 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:25:45.259 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /manager project=ddd&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:45.273 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:25:45.285 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:25:45.336 +0800 INFO [FlowRunnerManager] [Azkaban] Flow 11 is finished. Adding it to recently finished flows list.
+2017/09/01 11:25:45.556 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /schedule ajax=fetchSchedule&projectId=1&flowId=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:45.556 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /manager ajax=fetchflowdetails&project=ddd&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:45.570 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /manager project=ddd&ajax=fetchflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:57.000 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:57.002 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:25:59.207 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor projectId=1&project=ddd&ajax=executeFlow&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&disabled=%5B%5D&failureEmailsOverride=false&successEmailsOverride=false&failureAction=finishCurrent&failureEmails=liushouwei%40finupgroup.com&successEmails=liushouwei%40finupgroup.com&notifyFailureFirst=false&notifyFailureLast=false&concurrentOption=skip HTTP/1.1" browser
+2017/09/01 11:25:59.207 +0800 INFO [ExecutorManager] [Azkaban] Submitting execution flow 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) by azkaban
+2017/09/01 11:25:59.209 +0800 INFO [JdbcExecutorLoader] [Azkaban] Flow given 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) given id 12
+2017/09/01 11:25:59.217 +0800 INFO [ExecutorServlet] [Azkaban] User  has called action execute on 12
+2017/09/01 11:25:59.219 +0800 INFO [FlowPreparer] [Azkaban] Project already cached. Skipping download. ProjectVersion{projectId=1, version=1, installedDir=projects/1.1}
+2017/09/01 11:25:59.284 +0800 INFO [FlowPreparer] [Azkaban] Flow Preparation complete. [execid: 12, path: executions/12]
+2017/09/01 11:25:59.284 +0800 INFO [FlowRunnerManager] [Azkaban] Configuring Azkaban metrics tracking for flow runner object
+2017/09/01 11:25:59.286 +0800 INFO [ExecutorManager] [Azkaban] Successfully dispatched exec 12 with error count 0
+2017/09/01 11:25:59.292 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:25:59.304 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:25:59.315 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:25:59.331 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:25:59.356 +0800 INFO [FlowRunnerManager] [Azkaban] Flow 12 is finished. Adding it to recently finished flows list.
+2017/09/01 11:26:35.837 +0800 ERROR [EmailMessage] [Azkaban] Connecting to SMTP server failed, attempt: 0
+javax.mail.MessagingException: Exception reading response;
+  nested exception is:
+	java.net.SocketTimeoutException: Read timed out
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:2210)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1950)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:642)
+	at javax.mail.Service.connect(Service.java:295)
+	at azkaban.utils.EmailMessage.connectToSMTPServer(EmailMessage.java:242)
+	at azkaban.utils.EmailMessage.retryConnectToSMTPServer(EmailMessage.java:252)
+	at azkaban.utils.EmailMessage.sendEmail(EmailMessage.java:235)
+	at azkaban.utils.Emailer.sendErrorEmail(Emailer.java:160)
+	at azkaban.utils.Emailer.alertOnError(Emailer.java:204)
+	at azkaban.executor.ExecutorManager.finalizeFlows(ExecutorManager.java:1421)
+	at azkaban.executor.ExecutorManager.access$1000(ExecutorManager.java:71)
+	at azkaban.executor.ExecutorManager$ExecutingManagerUpdaterThread.run(ExecutorManager.java:1347)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.sun.mail.util.TraceInputStream.read(TraceInputStream.java:110)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at com.sun.mail.util.LineInputStream.readLine(LineInputStream.java:89)
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:2188)
+	... 11 more
+2017/09/01 11:26:44.957 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:26:44.957 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:27:06.880 +0800 ERROR [EmailMessage] [Azkaban] Connecting to SMTP server failed, attempt: 1
+javax.mail.MessagingException: Exception reading response;
+  nested exception is:
+	java.net.SocketTimeoutException: Read timed out
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:2210)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1950)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:642)
+	at javax.mail.Service.connect(Service.java:295)
+	at azkaban.utils.EmailMessage.connectToSMTPServer(EmailMessage.java:242)
+	at azkaban.utils.EmailMessage.retryConnectToSMTPServer(EmailMessage.java:252)
+	at azkaban.utils.EmailMessage.sendEmail(EmailMessage.java:235)
+	at azkaban.utils.Emailer.sendErrorEmail(Emailer.java:160)
+	at azkaban.utils.Emailer.alertOnError(Emailer.java:204)
+	at azkaban.executor.ExecutorManager.finalizeFlows(ExecutorManager.java:1421)
+	at azkaban.executor.ExecutorManager.access$1000(ExecutorManager.java:71)
+	at azkaban.executor.ExecutorManager$ExecutingManagerUpdaterThread.run(ExecutorManager.java:1347)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.sun.mail.util.TraceInputStream.read(TraceInputStream.java:110)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at com.sun.mail.util.LineInputStream.readLine(LineInputStream.java:89)
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:2188)
+	... 11 more
+2017/09/01 11:27:44.959 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:27:51.006 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:27:51.006 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:28:02.675 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor projectId=1&project=ddd&ajax=executeFlow&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&disabled=%5B%5D&failureEmailsOverride=true&successEmailsOverride=false&failureAction=finishCurrent&failureEmails=&successEmails=liushouwei%40finupgroup.com&notifyFailureFirst=false&notifyFailureLast=false&concurrentOption=skip HTTP/1.1" browser
+2017/09/01 11:28:02.676 +0800 INFO [ExecutorManager] [Azkaban] Submitting execution flow 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) by azkaban
+2017/09/01 11:28:02.676 +0800 INFO [JdbcExecutorLoader] [Azkaban] Flow given 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) given id 13
+2017/09/01 11:28:02.684 +0800 INFO [ExecutorServlet] [Azkaban] User  has called action execute on 13
+2017/09/01 11:28:02.686 +0800 INFO [FlowPreparer] [Azkaban] Project already cached. Skipping download. ProjectVersion{projectId=1, version=1, installedDir=projects/1.1}
+2017/09/01 11:28:02.757 +0800 INFO [FlowPreparer] [Azkaban] Flow Preparation complete. [execid: 13, path: executions/13]
+2017/09/01 11:28:02.757 +0800 INFO [FlowRunnerManager] [Azkaban] Configuring Azkaban metrics tracking for flow runner object
+2017/09/01 11:28:02.759 +0800 INFO [ExecutorManager] [Azkaban] Successfully dispatched exec 13 with error count 0
+2017/09/01 11:28:02.764 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:28:02.779 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:28:02.790 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:28:02.812 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:28:02.841 +0800 INFO [FlowRunnerManager] [Azkaban] Flow 13 is finished. Adding it to recently finished flows list.
+2017/09/01 11:28:31.248 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:28:31.248 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:28:44.960 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:28:44.960 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:28:44.960 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning execution 11 from recently finished flows list.
+2017/09/01 11:28:44.960 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning execution 12 from recently finished flows list.
+2017/09/01 11:29:21.201 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor projectId=1&project=ddd&ajax=executeFlow&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&disabled=%5B%5D&failureEmailsOverride=true&successEmailsOverride=false&failureAction=finishCurrent&failureEmails=jiangzhaohong%40finupgroup.com&successEmails=liushouwei%40finupgroup.com&notifyFailureFirst=false&notifyFailureLast=false&concurrentOption=skip HTTP/1.1" browser
+2017/09/01 11:29:21.201 +0800 INFO [ExecutorManager] [Azkaban] Submitting execution flow 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) by azkaban
+2017/09/01 11:29:21.203 +0800 INFO [JdbcExecutorLoader] [Azkaban] Flow given 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) given id 14
+2017/09/01 11:29:21.209 +0800 INFO [ExecutorServlet] [Azkaban] User  has called action execute on 14
+2017/09/01 11:29:21.210 +0800 INFO [FlowPreparer] [Azkaban] Project already cached. Skipping download. ProjectVersion{projectId=1, version=1, installedDir=projects/1.1}
+2017/09/01 11:29:21.268 +0800 INFO [FlowPreparer] [Azkaban] Flow Preparation complete. [execid: 14, path: executions/14]
+2017/09/01 11:29:21.269 +0800 INFO [FlowRunnerManager] [Azkaban] Configuring Azkaban metrics tracking for flow runner object
+2017/09/01 11:29:21.271 +0800 INFO [ExecutorManager] [Azkaban] Successfully dispatched exec 14 with error count 0
+2017/09/01 11:29:21.275 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:29:21.289 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:29:21.300 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:29:21.312 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:29:21.331 +0800 INFO [FlowRunnerManager] [Azkaban] Flow 14 is finished. Adding it to recently finished flows list.
+2017/09/01 11:30:42.399 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:31:05.288 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=fetchscheduledflowgraph&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:31:05.288 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor project=ddd&ajax=flowInfo&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) HTTP/1.1" browser
+2017/09/01 11:31:39.487 +0800 INFO [LoginAbstractAzkabanServlet] [Azkaban] 0 azkaban "GET /executor projectId=1&project=ddd&ajax=executeFlow&flow=1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12)&disabled=%5B%5D&failureEmailsOverride=true&successEmailsOverride=false&failureAction=finishCurrent&failureEmails=jiangzhaohong%40finupgroup.com&successEmails=liushouwei%40finupgroup.com&notifyFailureFirst=false&notifyFailureLast=true&concurrentOption=skip HTTP/1.1" browser
+2017/09/01 11:31:39.488 +0800 INFO [ExecutorManager] [Azkaban] Submitting execution flow 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) by azkaban
+2017/09/01 11:31:39.491 +0800 INFO [JdbcExecutorLoader] [Azkaban] Flow given 1.1_cif_lend_decision_data_result_record_finup_lend_(2_9_12) given id 15
+2017/09/01 11:31:39.498 +0800 INFO [ExecutorServlet] [Azkaban] User  has called action execute on 15
+2017/09/01 11:31:39.499 +0800 INFO [FlowPreparer] [Azkaban] Project already cached. Skipping download. ProjectVersion{projectId=1, version=1, installedDir=projects/1.1}
+2017/09/01 11:31:39.559 +0800 INFO [FlowPreparer] [Azkaban] Flow Preparation complete. [execid: 15, path: executions/15]
+2017/09/01 11:31:39.560 +0800 INFO [FlowRunnerManager] [Azkaban] Configuring Azkaban metrics tracking for flow runner object
+2017/09/01 11:31:39.563 +0800 INFO [ExecutorManager] [Azkaban] Successfully dispatched exec 15 with error count 0
+2017/09/01 11:31:39.568 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:31:39.580 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:31:39.589 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:31:39.600 +0800 WARN [JdbcProjectImpl] [Azkaban] Project 1 version 1 property 1.1_buffer_lend_decision_data_result_record_finup_lend_(2_9_12).jor is empty.
+2017/09/01 11:31:39.624 +0800 INFO [FlowRunnerManager] [Azkaban] Flow 15 is finished. Adding it to recently finished flows list.
+2017/09/01 11:31:45.315 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:31:45.315 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:31:45.315 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning execution 13 from recently finished flows list.
+2017/09/01 11:31:45.315 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning execution 14 from recently finished flows list.
+2017/09/01 11:32:45.317 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:33:45.319 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:33:45.320 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning recently finished
+2017/09/01 11:33:45.320 +0800 INFO [FlowRunnerManager] [Azkaban] Cleaning execution 15 from recently finished flows list.
+2017/09/01 11:34:45.320 +0800 INFO [FlowRunnerManager] [Azkaban] # of executing flows: 0
+2017/09/01 11:34:52.587 +0800 INFO [AzkabanWebServer] [Azkaban] logging top memeory consumer
+2017/09/01 11:34:52.588 +0800 INFO [AzkabanExecutorServer] [Azkaban] logging top memeory consumer
+2017/09/01 11:34:52.615 +0800 INFO [AzkabanWebServer] [Azkaban] Shutting down http server...
+2017/09/01 11:34:52.615 +0800 INFO [AzkabanWebServer] [Azkaban] Jmx MBean azkaban.jmx.JmxJettyServer:name=jetty unregistered.
+2017/09/01 11:34:52.615 +0800 INFO [AzkabanWebServer] [Azkaban] Jmx MBean azkaban.jmx.JmxTriggerManager:name=triggerManager unregistered.
+2017/09/01 11:34:52.615 +0800 INFO [AzkabanWebServer] [Azkaban] Jmx MBean azkaban.jmx.JmxExecutorManager:name=executorManager unregistered.
+2017/09/01 11:34:52.615 +0800 INFO [AzkabanWebServer] [Azkaban] Jmx MBean org.apache.log4j.jmx.HierarchyDynamicMBean:name=log4jmxbean unregistered.
+2017/09/01 11:34:52.616 +0800 INFO [AzkabanWebServer] [Azkaban] kk thx bye.
+2017/09/01 11:34:52.617 +0800 INFO [AzkabanExecutorServer] [Azkaban] Removing executor(host: 172.16.90.128, port: 12321) entry from database...
+2017/09/01 11:34:52.629 +0800 WARN [AzkabanExecutorServer] [Azkaban] Shutting down executor...
+2017/09/01 11:34:52.630 +0800 WARN [FlowRunnerManager] [Azkaban] Shutting down FlowRunnerManager now...
+2017/09/01 11:34:52.630 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jmx MBean azkaban.jmx.JmxJettyServer:name=executorJetty unregistered.
+2017/09/01 11:34:52.630 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jmx MBean azkaban.execapp.jmx.JmxFlowRunnerManager:name=flowRunnerManager unregistered.
+2017/09/01 11:34:52.630 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jmx MBean azkaban.execapp.jmx.JmxJobMBeanManager:name=jobJMXMBean unregistered.
+2017/09/01 11:34:52.630 +0800 INFO [AzkabanExecutorServer] [Azkaban] Jmx MBean azkaban.execapp.jmx.JmxJobCallback:name=jobCallbackJMXMBean unregistered.

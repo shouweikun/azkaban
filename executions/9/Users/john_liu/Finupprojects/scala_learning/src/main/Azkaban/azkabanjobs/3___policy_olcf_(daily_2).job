@@ -1,0 +1,6 @@
+#3___policy_olcf_(daily_2)
+type = flow
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+dependencies = 3.2__oyhRegionList_policy_olcf_(daily_2),3.1__ln_blacklist_open_1221_policy_olcf_(daily_2)
+flow.name = 3_end__policy_olcf_(daily_2)

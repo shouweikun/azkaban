@@ -1,0 +1,5 @@
+#3_end__policy_olcf_(daily_2)
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+command = echo "end"

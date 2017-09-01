@@ -1,0 +1,8 @@
+#2.3_ods_cc_oto_qianzhan_refuse_info_puhui_cc_(daily_2)
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+retries = 3
+retry.back = 30000
+dependencies = 2.3_buffer_cc_oto_qianzhan_refuse_info_puhui_cc_(daily_2)
+command = /data/cloud/deploy/scripts/bigdata/puhui_data_platform/mianEdwTrans.sh    ods_puhui_cc_cc_oto_qianzhan_refuse_info ods

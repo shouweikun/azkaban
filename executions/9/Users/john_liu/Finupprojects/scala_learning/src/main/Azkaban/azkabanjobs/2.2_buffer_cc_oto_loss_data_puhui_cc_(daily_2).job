@@ -1,0 +1,7 @@
+#2.2_buffer_cc_oto_loss_data_puhui_cc_(daily_2)
+type = command
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+retries = 3
+retry.back = 30000
+command = sh /data/cloud/deploy/scripts/bigdata/puhui_data_platform/transKetter.sh cc_oto_loss_data puhui_cc buffer default puhui_cc 

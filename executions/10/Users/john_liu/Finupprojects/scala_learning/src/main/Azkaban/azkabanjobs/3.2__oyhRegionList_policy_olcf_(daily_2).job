@@ -1,0 +1,5 @@
+#3.2__oyhRegionList_policy_olcf_(daily_2)
+type = flow
+failure.emails = liushouwei@finupgroup.com
+success.emails = liushouwei@finupgroup.com
+flow.name = 3.2_cif_oyhregionlist_policy_olcf_(daily_2)
